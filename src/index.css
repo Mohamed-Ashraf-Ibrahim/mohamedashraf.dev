@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+/* From Uiverse.io by boryanakrasteva */
+.card {
+  width: 300px;
+  height: 254px;
+  background: lightgrey;
+  overflow: hidden;
+  display: flex;
+}
+
+.circles,
+.browser {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.circles {
+  width: 20%;
+  gap: 8px;
+  padding: 10px;
+}
+
+.c {
+  width: 09px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 5px rgba(235, 235, 235, 0.356);
+}
+
+.c:first-child {
+  background-color: red;
+}
+
+.c:nth-child(2) {
+  background-color: rgb(204, 167, 4);
+}
+
+.c:last-child {
+  background-color: green;
+}
+
+.browser {
+  width: 80%;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.chevrons {
+  display: flex;
+}
+
+.search-bar {
+  position: relative;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(88, 88, 88);
+  box-shadow: inset 2px 2px 2px #05050525;
+}
+
+.search-bar svg {
+  position: absolute;
+  left: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8e08dc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
