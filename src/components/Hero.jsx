@@ -47,7 +47,7 @@ export function Hero() {
             className="text-white text-[28px] md:text-[50px] w-full tracking-normal leading-relaxed font-bold mt-3 lg:text-5xl lg:tracking-normal lg:leading-snug"
           >
             <p>
-              Hi <span className="wave">👋</span>, I'm Mohamed
+              Hi <span className="wave">👋</span>, I'm 
             </p>
             <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent block font-extrabold">
               {name}
