@@ -16,7 +16,7 @@ export function Nav() {
   }
 
   return (
-    <header className="sticky top-0 h-[70px] z-30">
+    <header className="sticky top-8 h-[70 px] z-30">
       <div className="container mx-auto flex justify-between h-full items-center">
         {/* LOGO  */}
 
@@ -46,7 +46,7 @@ export function Nav() {
             className={`fixed w-full top-[70px] left-0 right-0 mx-2 flex flex-col ${isOpen ? "max-h-[500px] p-4" : "max-h-0"} lg:max-h-none lg:p-0 lg:flex-row gap-4 lg:relative lg:top-0 lg:border-none lg:h-full overflow-hidden transition-all duration-400 font-secondary bg-black lg:bg-transparent`}
           >
             <li className="text-primary-title text-md mx-2 hover:text-primary-hover transition-all duration-100">
-              <a href="#home">Home</a>
+              <a href="#hero">Home</a>
             </li>
             <li className="text-primary-title text-md mx-2 hover:text-primary-hover transition-all duration-100">
               <a href="#about">About</a>

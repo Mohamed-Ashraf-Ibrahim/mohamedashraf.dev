@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { personalDetails } from "../Data.js";
-import {  motion, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 export function Hero() {
   const h1Ref = useRef(null);
@@ -46,7 +46,9 @@ export function Hero() {
             custom={1.5}
             className="text-white text-[28px] md:text-[50px] w-full tracking-normal leading-relaxed font-bold mt-3 lg:text-5xl lg:tracking-normal lg:leading-snug"
           >
-            Hi 👋, I'm
+            <p>
+              Hi <span className="wave">👋</span>, I'm Mohamed
+            </p>
             <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent block font-extrabold">
               {name}
             </span>{" "}

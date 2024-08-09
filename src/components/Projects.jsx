@@ -3,7 +3,7 @@ import Project from "./Project";
 /* eslint-disable react/prop-types */
 export function Projects() {
   return (
-    <main className="container mx-auto w-full mt-[100px] lg:mt-[150px]" id="projects">
+    <main className="container mx-auto w-full mt-[200px] lg:mt-[150px]" id="projects">
       <section>
         <div className="project-header text-center my-10 ">
           <h2 className="text-[35px] font-bold tracking-normal text-primary-title">
