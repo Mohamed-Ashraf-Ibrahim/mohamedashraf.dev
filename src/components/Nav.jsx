@@ -16,7 +16,7 @@ export function Nav() {
   }
 
   return (
-    <header className="sticky top-8 h-[70 px] z-30">
+    <header className="sticky top-7 h-[70 px] z-30">
       <div className="container mx-auto flex justify-between h-full items-center">
         {/* LOGO  */}
 

@@ -26,7 +26,7 @@ export function Hero() {
   const { name, title, about, img, cvLink } = personalDetails;
   return (
     <section id="hero">
-      <div className="container mx-auto my-[160px] lg:my-[200px] w-full flex flex-col lg:flex-row-reverse ">
+      <div className="container mx-auto my-[160px] lg:my-[150px] w-full flex flex-col lg:flex-row-reverse ">
         <motion.img
           ref={imgRef}
           initial="hidden"

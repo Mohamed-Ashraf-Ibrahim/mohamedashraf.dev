@@ -6,6 +6,7 @@ import { Technologies } from "./Technologies";
 import { Tools } from "./Tools";
 import { Projects } from "./Projects";
 import { ContactUs } from "./ContactUs";
+import ScrollToTopButton from "./ScrollToTopButton";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Tools onRenderIcons={renderIcons} />
       <Projects />
       <ContactUs />
+      <ScrollToTopButton/>
       {/* <Footer /> */}
       {/* scrollYProgress */}
       <motion.div
