@@ -29,7 +29,7 @@ export default function ScrollToTopButton() {
       {backToTopButton && (
         <button
           onClick={handleScrollUp}
-          className="bg-purple-600 fixed h-[50px] w-[50px] rounded-full right-[30px] bottom-[50px]"
+          className="bg-purple-600 fixed h-[50px] w-[50px] rounded-full right-[30px]  bottom-[50px] lg:right-[150px] lg:bottom-[60px]"
         >
           <FontAwesomeIcon
             icon={faArrowUp}
