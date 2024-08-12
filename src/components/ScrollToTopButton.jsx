@@ -11,7 +11,7 @@ export default function ScrollToTopButton() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    // Cleanup event listener on component unmount
+    // Cleanup event listener on component unmount.
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -33,7 +33,7 @@ export default function ScrollToTopButton() {
         >
           <FontAwesomeIcon
             icon={faArrowUp}
-            className="text-primary-hover text-xl font-bold"
+            className="text-primary-hover text-xl font-extrabold"
           />
         </button>
       )}
