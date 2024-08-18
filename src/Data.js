@@ -17,6 +17,7 @@ import adobe_xd from "./assets/adobe_xd.png";
 import vite from "./assets/vite.png";
 import figma from "./assets/figma.png";
 import npm from "./assets/npm.png";
+import Azure from "./assets/Azure Devops.png";
 // Project images
 import interno from "./assets/interno.png";
 import todolist from "./assets/todolist.png";
@@ -63,6 +64,7 @@ export const techIcons = [
 export const toolsIcons = [
   { name: "git", src: git },
   { name: "github", src: github },
+  { name: "azure", src: Azure },
   { name: "vscode", src: vscode },
   { name: "babel", src: babel },
   { name: "adobe_xd", src: adobe_xd },
