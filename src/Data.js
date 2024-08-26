@@ -32,7 +32,7 @@ export const personalDetails = {
     "A frontend developer skilled in creating user-friendly and visuallyappealing web applications.",
   img: profile,
   cvLink:
-    "https://drive.google.com/file/d/1FuPAafmkFdIbqflBqtp7kxjlvoJR98h_/view?usp=sharing",
+    "https://drive.google.com/file/d/1bUZWp34WpHZRRLJcOWnj-d4LPdE-VYG6/view?usp=sharing",
   aboutMe: `I am deeply passionate about programming and frontend development,
             consistently striving to enhance my skills and knowledge. My
             curiosity drives me to explore new technologies and frameworks on my
