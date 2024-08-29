@@ -13,7 +13,7 @@ export function Projects() {
             Things I’ve built so far
           </p>
         </div>
-        <div className="grid gird-cols-1 lg:grid-cols-2 gap-x-5 gap-y-10 place-items-center md:grid-cols-2 md:gap-x-16">
+        <div className="grid gird-cols-1 lg:grid-cols-3 lg:gap-x-[16rem] gap-y-10 place-items-center md:grid-cols-1 md:gap-x-[8rem] md:gap-y-10">
           {projectDetails.map(
             ({
               title,

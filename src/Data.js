@@ -23,6 +23,7 @@ import interno from "./assets/interno.png";
 import todolist from "./assets/todolist.png";
 import nexcent from "./assets/nexcent.png";
 import usePopCorn from "./assets/usepopcorn.png";
+import Reactquiz from "./assets/React-quiz.png";
 
 // Personal Details
 export const personalDetails = {
@@ -103,6 +104,15 @@ export const projectDetails = [
     techStack: "HTML, CSS3, ReactJs, API, JavaScript(ES6+).",
     previewLink: "https://mohamed-ashraf-ibrahim.github.io/usePopcorn/",
     githubLink: "https://github.com/Mohamed-Ashraf-Ibrahim/usePopcorn",
+  },
+  {
+    title: "React Quiz",
+    image: Reactquiz,
+    description:
+      "Interactive React Quiz Application: Built a dynamic quiz app in React, enabling real-time interaction, question answering, and instant results for users.",
+    techStack: "HTML, CSS3, ReactJs, API, JavaScript(ES6+).",
+    previewLink: "https://gleeful-bonbon-6ab8de.netlify.app/",
+    githubLink: "https://github.com/Mohamed-Ashraf-Ibrahim/react-quiz",
   },
   {
     title: "Nexcent",
